@@ -28,7 +28,7 @@
         </script>
 
         <!-- Google tracking -->
-        <script>
+       <!--- <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
           m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -36,7 +36,8 @@
 
           ga('create', 'UA-65368616-1', 'auto');
           ga('send', 'pageview');
-        </script>
+        </script> --->
+        <script src="https://use.fontawesome.com/978bb11bb3.js"></script>
 
         <script type="text/javascript"
             src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
@@ -58,6 +59,7 @@
 						<li><a href="index.html">Home</a></li>
                         <!---<li><a href="blog.html">Blog</a></li> --->
 						<li><a href="AmeliaTaylor.pdf">Resume</a></li>
+                       <!--- <li><a href="AmeliaTaylorCV.pdf">Resume</a></li> --->
 					</ul>
 				</nav>
 			</header>
@@ -75,7 +77,7 @@
 							<div class="6u 12u$(medium)">
 								<header class="major">
 									<h2>About me</h2>
-									<div class="11u"><span class="image fit"><img src="professionalPhoto.JPG" style="max-width: 300px" alt="" /></span></div>
+									<div class="11u"><span class="image fit"><img src="professionalPhoto.JPG" style="max-width: 230px" alt="" /></span></div>
 								</header>
 							</div>
 							<div class="6u$ 12u$(medium)">
@@ -98,52 +100,52 @@
 					<div class="container">
 						<header class="major special">
 							<h2>Projects</h2>
-							<p>Quick links and catchy taglines</p>
+				<!---			<p>Quick links and catchy taglines</p> </a> --->
 						</header>
 						<div class="feature-grid">
-<!---                            <div class="feature">
-                                <div class="image rounded">
-                                    <a href="http://arxiv.org/abs/1602.04621">
-                                        <img src="images/pacman.jpg" alt="" />
+                                    <div class="feature">
+                                <div class="image">
+                                    <a href="https://speakerdeck.com/ameliajtaylor/">
+                                        <img src="insight.png" alt="" />
                                     </a>
                                 </div>
                                 <div class="content">
                                     <header>
-                                        <h4></h4>
-                                        <p>In submission</p>
+                                        <h4>Insight Data Science Demo</h4>
+                                        <p>Slides</p>
                                     </header>
-                                    <p>Deep exploration and deep reinforcement learning. Takes the insight from efficient exploration via randomized value functions and attains state of the art results on Atari. Includes some sweet vids.</p>
+                                    <p>Consulting project for an analytics company. </p>
                                 </div>
                             </div>
-							<div class="feature">
+							     <div class="feature">
 								<div class="image rounded">
-                                    <a href="http://xxx.tau.ac.il/abs/1507.00300">
+                                    <a href="https://github.com/ameliajtaylor">
                                         <img src="images/deep.jpg" alt="" />
                                     </a>
                                 </div>
 								<div class="content">
 									<header>
-										<h4>Bootstrapped Thompson Sampling and Deep Exploration</h4>
-										<p>Technical pre-print</p>
+										<h4>Predicting Fates of Shelter Animals</h4>
+										<p>Side project for Insight preparation.</p>
 									</header>
-									<p>A principled approach to efficient exploration with generalization that can be implemented for deep learning models at scale. Use an augmented bootstrap to approximate the posterior distribution.</p>
+									<p></p>
 								</div>
 							</div>
-							<div class="feature">
+					<!---		<div class="feature">
 								<div class="image rounded">
-                                    <a href="http://arxiv.org/abs/1402.0635">
+                                    <a href="https://github.com/ameliajtaylor">
                                     <img src="images/dog.jpg" alt="" />
                                     </a>
                                 </div>
 								<div class="content">
 									<header>
-										<h4>Generalization and Exploration via Randomized Value functions</h4>
-										<p>In submission</p>
+										<h4>Judging Judges</h4>
+										<p>Side project for a county elections office.</p>
 									</header>
-									<p>You can combine efficient exploration and generalization, all without a model-based planning step. Some cool empirical results and also some theory. My favorite paper.</p>
+									<p></p>
 								</div>
 							</div>
-                            <div class="feature">
+                        <div class="feature">
                                 <div class="image rounded">
                                     <a href="http://papers.nips.cc/paper/5245-model-based-reinforcement-learning-and-the-eluder-dimension">
                                     <img src="images/eluder.jpg" alt="" />
@@ -154,35 +156,7 @@
                                         <h4>Model based reinforcement learning and the eluder dimension</h4>
                                         <p>NIPS 2014</p>
                                     </header>
-                                    <p>The first general analysis of model based RL in terms of the dimensionality, rather than the cardinality, of the system. Several new state of the art results including linear systems.</p>
-                                </div>
-                            </div>
-                            <div class="feature">
-                                <div class="image rounded">
-                                    <a href="http://papers.nips.cc/paper/5445-near-optimal-reinforcement-learning-in-factored-mdps">
-                                    <img src="images/factored.jpg" alt="" />
-                                    </a>
-                                </div>
-                                <div class="content">
-                                    <header>
-                                        <h4>Near-optimal Reinforcement Learning in Factored MDPs</h4>
-                                        <p>NIPS Spotlight 2014, INFORMS 2014</p>
-                                    </header>
-                                    <p>If the environment is a structured graph (aka factored MDP), then you can exploit that to learn quickly. You can adapt UCB-style approaches for this, posterior sampling gets it for free. </p>
-                                </div>
-                            </div>
-                            <div class="feature">
-                                <div class="image rounded">
-                                    <a href="http://papers.nips.cc/paper/5185-more-efficient-reinforcement-learning-via-posterior-sampling">
-                                    <img src="images/dice.jpg" alt="" />
-                                    </a>
-                                </div>
-                                <div class="content">
-                                    <header>
-                                        <h4>(More) Efficient Reinforcement Learning via Posterior Sampling</h4>
-                                        <p>NIPS 2013, RLDM 2013</p>
-                                    </header>
-                                    <p>You don't need to use loose UCB-style algorithms to get regret bounds for reinforcement learning. Posterior sampling is more efficient in terms of computation and data and shares similar gaurantees. </p>
+                                    <p>
                                 </div>
                             </div> --->
 						</div>
@@ -194,8 +168,7 @@
                 <div class="container" style="max-width: 1000px; line-height: 140%;">
 
                     <header class="major special">
-                        <h2>Academic History</h2>
-                        <p>Past courses</p>
+                        <h2>Academic Research </h2>
                     </header>
 
 <!---        <p id=""><a href="http://explorecourses.stanford.edu/search;jsessionid=eqe6sam4fpd614wv5fgcsffa2?q=MS%26E+142%3A+Introductory+Financial+Analysis&filter-coursestatus-Active=on&view=catalog&academicYear=20142015" target="_blank"><span class="image left"><img src="images/stocks.jpg" title="" alt="" style="max-width: 140px"></span></a><h4> MS&ampE 145 - Introduction to Financial analysis - lead instructor</h4><p>Finance for engineers aimed for over 75 undergraduate juniors and seniors. Everything from the time value of money to CAPM to elementary option pricing and portfolio optimization. Practical data analysis skills taught through spreadsheets.</p>
@@ -215,9 +188,9 @@
 						<header class="major">
 							<h2>Want more?</h2>
 							<p>Hit me up at any of the links below. </p>
-                            <p> <a href="docs/IanOsband_Academic.pdf" target="_blank"> Here </a> is a copy of my CV. </p>
+                            <p> <a href="AmeliaTaylor.pdf" target="_blank"> Here </a> is a copy of my CV. </p>
 						</header>
-<!-- 						<ul class="actions">
+                            <ul class="actions">
 							<li><a href="#" class="button special big">Get in touch</a></li>
 						</ul> -->
 					</div>
@@ -227,17 +200,16 @@
 			<footer id="footer">
 				<div class="container">
 					<ul class="icons">
-                        <li><a href="mailto:ian.osband@gmail.com" class="icon fa-mail-reply"></a></li>
-						<li><a href="https://www.facebook.com/ian.osband" class="icon fa-facebook"></a></li>
-						<!-- <li><a href="#" class="icon fa-twitter"></a></li> -->
-						<li><a href="https://instagram.com/ianosband/" class="icon fa-instagram"></a></li>
-                        <li><a href="https://github.com/iosband" class="icon fa-github"></a></li>
-                        <li><a href="https://bitbucket.org/iosband/" class="icon fa-bitbucket"></a></li>
-                        <li><a href="https://plus.google.com/u/0/+IanOsband" class="icon fa-google-plus"></a></li>
-                        <li><a href="https://www.linkedin.com/in/iosband" class="icon fa-linkedin"></a></li>
+                        <li><a href="mailto:ajt@ameliajtaylor.com" class="icon fa-mail-reply"></a></li>
+                        <li><a href="https://github.com/ameliajtaylor" class="icon fa-github"></a></li>
+                        <!---<li><a href="https://bitbucket.org/iosband/" class="icon fa-bitbucket"></a></li></a> ---></a>
+                        <!--- <li><a href="https://plus.google.com/u/0/+IanOsband" class="icon fa-google-plus"></a></li></a> ---></a>
+                        <li><a href="https://www.linkedin.com/in/ameliajtaylor" class="icon fa-linkedin"></a></li>
+                        <!-- <li><a href="#" class="icon fa-twitter"></a></li> -->
+						<li><a href="https://instagram.com/originalbrickhouse/" class="icon fa-instagram"></a></li>
 					</ul>
 					<ul class="copyright">
-						<li>Copyright &copy; Ian Osband</li>
+						<li>Copyright &copy; Amelia Taylor</li>
                         <li> HTML5</li>
 						<li>Design: <a href="http://templated.co">TEMPLATED</a></li>
 					</ul>
